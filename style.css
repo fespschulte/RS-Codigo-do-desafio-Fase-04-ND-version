@@ -127,6 +127,9 @@ img {
   padding: 0 1.6rem;
   z-index: +1;
 }
+footer {
+  opacity: 0;
+}
 
 @keyframes topdown {
   0% {
@@ -200,5 +203,8 @@ img {
   }
   main div:nth-child(6) {
     grid-area: F;
+  }
+  footer {
+    opacity: 1;
   }
 }
