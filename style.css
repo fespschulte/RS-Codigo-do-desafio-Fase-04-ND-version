@@ -36,7 +36,9 @@ body::before {
   z-index: -1;
   box-shadow: 0 2px 3px 5px var(--black);
 }
-
+a {
+  text-decoration: none;
+}
 a img {
   height: 10rem;
   animation: topdown 1700ms;
@@ -71,7 +73,7 @@ header h1 {
 main {
   display: grid;
   gap: 2.8rem;
-  padding-bottom: 10rem;
+  padding-bottom: 2.5rem;
 }
 
 p {
